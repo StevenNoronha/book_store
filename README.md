@@ -1,10 +1,10 @@
 # Simple Book-Store React App
 A MERN stack-based project for a bookstore implements CRUD (Create, Read, Update, Delete) operations for managing a collection of books. It involves using the following technologies:
 
-MongoDB: To store and manage book data in a NoSQL database.
-Express.js: To create a server and define API routes for interacting with the database.
-React: To build the user interface for adding, viewing, updating, and deleting books.
-Node.js: As the runtime environment for the server-side operations.
+1. MongoDB: To store and manage book data in a NoSQL database.
+2. Express.js: To create a server and define API routes for interacting with the database.
+3. React: To build the user interface for adding, viewing, updating, and deleting books.
+4. Node.js: As the runtime environment for the server-side operations.
 
 Users can create new book entries, view a list of all books in the store, update book information, and delete books that are no longer needed. The project showcases how the MERN stack can be leveraged for a full-stack web application, providing a robust and efficient way to manage a bookstore's inventory.
 
