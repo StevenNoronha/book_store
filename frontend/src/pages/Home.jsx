@@ -6,7 +6,8 @@ import { AiOutlineEdit } from 'react-icons/ai';
 import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import BooksTable from '../components/home/BooksTable.jsx';
- import BooksCard from '../components/home/BooksCard';
+import BooksCard from '../components/home/BooksCard';
+import Books from '../assets/Books.jpg'
 
 const Home = () => {
     const [books, setBooks] = useState([]);
@@ -45,6 +46,14 @@ const Home = () => {
           Card
         </button>
       </div>
+    </div>
+    <div style={{height: "70vh"}}><img src={Books} style={{width: "100%", height: "100%", objectFit:"cover"}} />
+      <div className='heroDiv'><div className='heroInner example'>
+        <div>
+          Book-Store 
+          <hr style={{height: ".15rem", background: "rgb(0,0,0)"}}/>
+        </div>
+      </div></div>
     </div>
     <div className='p-4'>
       <div className='flex justify-between items-center'>

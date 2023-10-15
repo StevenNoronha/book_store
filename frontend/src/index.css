@@ -80,3 +80,31 @@ button:focus-visible {
   background-color: aqua;
   padding: 1rem;
 }
+
+.heroDiv {
+  z-Index: 100;
+  position: absolute;
+  top: 15rem;
+  width: 100%;
+}
+
+.heroInner {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.example {
+  animation: example .6s ease-out;
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
